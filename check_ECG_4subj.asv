@@ -1,0 +1,22 @@
+clc; clear; close all;
+% correct the following path if needed.
+MATLABdir = 'C:\Users\lwang\surfdrive\MATLAB\imec_case_Lei\';
+addpath(genpath(MATLABdir));
+
+%% read files
+subjName1 = 'Chestpatch_subj_075';
+subjName2 = 'Chestpatch_subj_246';
+subjName3 = 'Chestpatch_subj_248';
+subjName4 = 'Chestpatch_subj_323';
+
+subj = subjName2;
+ECG1 = [subj,'_a.xlsx']; 
+filename2 = [subj,'_b.xlsx']; 
+filename3 = [subj,'_c.xlsx']; 
+filename4 = [subj,'_x.xlsx']; 
+
+filepath = ['files\', filename1];
+ECG = xlsread(filepath,'ecg','A:A');
+QRS = xlsread(filepath,'qrs','A:A');
+% Acc = xlsread(filepath,'accelerometer','A:C');
+fs = 256;
