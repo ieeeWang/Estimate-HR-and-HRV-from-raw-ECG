@@ -1,5 +1,15 @@
 # Estimate-HR-and-HRV-from-raw-ECG
-A MATLAB project for estimating HR and HRV parameters from raw ECG signals
+A MATLAB project for estimating HR and HRV parameters from raw ECG signals.
+
+Quick demos:
+<p align="center">
+    <img width="200%" src="images/R peaks.png" style="max-width:200%;"></a>
+</p>
+
+<p align="center">
+    <img width="200%" src="images/HRs_allSubj.png" style="max-width:200%;"></a>
+</p>
+
 
 I recommend to run the following three .m files one by one to understand the automated figure results better.
 
