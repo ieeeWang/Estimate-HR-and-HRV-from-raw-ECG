@@ -3,7 +3,7 @@ A MATLAB project for estimating HR and HRV parameters from raw ECG signals.
 
 Quick demos:
 <p align="center">
-    <img width="200%" src="images/R peaks.png" style="max-width:200%;"></a>
+    <img width="200%" src="images/R_peaks.png" style="max-width:200%;"></a>
 </p>
 
 <p align="center">
